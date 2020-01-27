@@ -5,6 +5,19 @@ Version 0
 single cell l sequencing of mouse ventral midbrain GABAergic neurons at E16
 
 
+Installation
+
+Anaconda
+
+If you do not have a working installation of Python 3.6 (or later), consider installing Miniconda (see Installing Miniconda). Then run:
+conda install -c bioconda scanpy
+
+Install the Leiden clustering package [Traag18] (improved Louvain clustering) via:
+conda install -c conda-forge leidenalg
+
+
+
+
 ## Project organization
 
 ```
