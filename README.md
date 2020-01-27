@@ -4,6 +4,8 @@ Version 0
 
 single cell l sequencing of mouse ventral midbrain GABAergic neurons at E16
 
+Language: Python 
+Tested on MacOS version 10.15.2 (19C57)
 
 Installation
 
@@ -15,6 +17,9 @@ conda install -c bioconda scanpy
 Install the Leiden clustering package [Traag18] (improved Louvain clustering) via:
 conda install -c conda-forge leidenalg
 
+## Packages 
+
+scanpy==1.4.5.dev180+g5d6f276 anndata==0.6.22.post1 umap==0.3.10 numpy==1.17.2 scipy==1.3.1 pandas==0.25.1 scikit-learn==0.21.3 statsmodels==0.10.1 python-igraph==0.7.1 louvain==0.6.1
 
 
 
